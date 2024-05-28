@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pontryagin"
+version = "0.1.0"
+description = ""
+authors = ["Onno Eberhard <onnoeberhard@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "*"
+jax = "*"
+flax = "*"
+matplotlib = "*"
+optax = "*"
+einops = "*"
+oetils = "*"
+orbax-checkpoint = "*"
+pink-noise-rl = "*"
+stable-baselines3 = "*"
+tqdm = "*"
+gymnasium = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
