@@ -13,3 +13,4 @@ Once installed, you can run the examples in the `examples` folder, e.g.
 ```
 python examples/pendulum.py
 ``` 
+On first run it might take a few minutes. If it hangs after the plot shows, try to change the file to have `plot=False` in the function call.
